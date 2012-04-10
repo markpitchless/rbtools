@@ -129,6 +129,7 @@ def load_scmclients(options):
     from rbtools.clients.perforce import PerforceClient
     from rbtools.clients.plastic import PlasticClient
     from rbtools.clients.svn import SVNClient
+    from rbtools.clients.bazaar import BazaarClient
 
     SCMCLIENTS = [
         CVSClient(options=options),

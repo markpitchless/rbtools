@@ -139,6 +139,7 @@ def load_scmclients(options):
         PerforceClient(options=options),
         PlasticClient(options=options),
         SVNClient(options=options),
+        BazaarClient(options=options),
     ]
 
 
